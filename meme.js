@@ -480,7 +480,7 @@ class MemesWar {
                 await new Promise(resolve => setTimeout(resolve, 1000));
             }
 
-            await this.countdown(65 * 60);
+            await this.countdown(5 * 60);
         }
     }
 }
